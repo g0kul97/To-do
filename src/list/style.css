@@ -1,0 +1,76 @@
+body{
+    background-color: #393E46;
+}
+.ToDo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+.tasks{
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color:  #4d5460 ;
+}
+.task{
+    background-color: #3e4043;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px ;
+}
+.task.completed{
+    opacity: 0.5;
+}
+
+.task span.content{
+    flex-grow: 1;
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+.task input.edit-input{
+    flex-grow: 1;
+}
+
+button{
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+}
+.edit{
+    background-color: transparent ;
+}
+.delete{
+    background-color: rgb(222, 81, 81);
+}
+.save{
+    background-color: rgb(79, 165, 79);
+}
+.add-task button{
+    background-color: rgb(66, 187, 66);
+}
+
+input{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 8px 12px;
+}
+.add-task{
+    width: 440px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 20px;
+}
+.add-task{
+    flex-grow: 1;}
+
